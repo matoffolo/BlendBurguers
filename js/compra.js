@@ -4,7 +4,7 @@ $().ready(function () {
     const carStorage = JSON.parse(localStorage.getItem(`carrito`));
 
     carrito = carStorage || [];
-
+    carritoTotal()
 })
 function actualizarCompraHTML(){
     listaCompra.innerHTML = '';    
