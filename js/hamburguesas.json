@@ -1,0 +1,33 @@
+[
+{
+    "imagen": "ima/talleS.png",
+    "nombre": "burguer S",
+    "descripcion": "Pan de papa, Hamburguesa de 100 gr, doble queso cheddar, cebolla caramelizada, mayonesa casera y Papas fritas" ,
+    "precio": 500,
+    "id": "1"
+},
+{
+    "imagen": "ima/talleM.png",
+    "nombre": "burguer M",
+    "descripcion": "Pan de papa, 2 Hamburguesa de 100 gr c/u, doble queso cheddar, cebolla caramelizada, mayonesa casera y Papas fritas",
+    "precio": 600,
+    "id": "2"
+},
+{
+    "imagen": "ima/talleL.png",
+    "nombre": "burguer L",
+    "descripcion": "Pan de papa, 3 Hamburguesa de 100 gr c/u, doble queso cheddar, cebolla caramelizada, mayonesa casera y Papas fritas",
+    "precio": 650,
+    "id": "3"
+},
+{
+    "imagen": "ima/talleXL.png",
+    "nombre": "burguer XL",
+    "descripcion": "Pan de papa, 4 Hamburguesa de 100 gr c/u, doble queso cheddar, cebolla caramelizada, mayonesa casera y Papas fritas",
+    "precio": 700,
+    "id": "4"
+}
+]
+
+
+    

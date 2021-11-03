@@ -1,0 +1,30 @@
+[
+    {
+        "imagen": "ima/jardin.jpg",
+        "nombre": "Jardin",
+        "descripcion": "Pan de papa, 2 Hamburguesa de 100 gr c/u, doble fetas de panceta, doble queso cheddar, cebolla frita ,huevo frito, salsa barbacoa y papas fritas.",
+        "precio": 820,
+        "id": "5"
+    },
+    {
+        "imagen": "ima/nuevacordoba.jpg",
+        "nombre": "Cordoba",
+        "descripcion": "Pan de papa, 2 Hamburguesa de 100 gr c/u, queso brie, rúcula, cebolla caramelizada, mayonesa de aceto balsámico casero y papas fritas.",
+        "precio": 860,
+        "id": "6"
+    },
+    {
+        "imagen": "ima/elcerro.jpg",
+        "nombre": "El Cerro",
+        "descripcion": "Pan de papa, 3 Hamburguesa de 100 gr c/u, cuatro fetas de cheddar, cuatro fetas de panceta sweet, Cebolla morada, salsa King Size MBH y papas fritas.",
+        "precio": 965,
+        "id": "7"
+    },
+    {
+        "imagen": "ima/alberdi.jpg",
+        "nombre": "Alberdi",
+        "descripcion": "Pan de papa, 2 Hamburguesa de 100 gr c/u, doble fetas de panceta, doble queso cheddar, pulled pork, Cebolla crispy, barbacoa a la miel y papas fritas.",
+        "precio": 920,
+        "id": "8"
+    }
+    ]

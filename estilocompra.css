@@ -1,0 +1,117 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: black;
+  }
+  
+  #cargando {
+    display: none;
+}
+.container__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 0;
+  z-index: 20;
+  vertical-align: inherit;
+  font-family: "Bowlby One SC", cursive;
+  margin-top: 10px;
+}
+
+.title__text {
+  position: absolute;
+  font-size: 3vw;
+  -webkit-transform: translateY(0.5rem);
+  transform: translateY(0.5rem);
+  letter-spacing: .3rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+  color:white;
+}
+
+.title__text--shadow {
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: .3rem;
+  font-size: 9vw;
+  color: #949797;
+  opacity: .30;
+}
+.navbar-brand{
+  font-family: "Bowlby One SC", cursive;
+}
+
+form{
+  padding: 50px 100px 0px 100px ;
+}
+
+.col-form-label {
+color: white;
+}
+
+th{
+  color: white;
+  text-align: center;
+  }
+tr{ color: white;
+  text-align: center;
+
+}
+
+  .agregar-carrito {
+    font-family: 'latos', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    border-radius: 50
+px
+;
+    padding: 1.7
+rem
+;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color:white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: black;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-decoration:none;
+}
+
+.borrar-producto{
+  color: white;
+  
+}
+.borrar-producto :hover{
+  color: grey;
+  
+}
