@@ -87,6 +87,40 @@ function carritoTotal() {
     actualStorageCompra()
 }   
 
+const cliente = document.getElementById('cliente');
+const correo = document.getElementById('correo');
+const telefono = document.getElementById('telefono');
+const direccion = document.getElementById('direccion');
 
-
+const procesarCompra = document.getElementById(`procesar-compra`)
+procesarCompra.addEventListener(`click`, comprar)
+function comprar(e){
+    e.preventDefault();
+    if(carrito.length === 0){
+        Swal.fire({
+            position: 'top-end',
+            title: "<h4 class='pop' style='color:white'>No existen Burguer</h4>",
+            showConfirmButton: false,
+            timer: 1500,
+            background: '#fff',
+            padding: 25, 
+            width: 300,
+            
+          }).then(function (){
+              window.location = "index.html"
+          })
+        } else if (cliente.value === '' || correo.value === '' || telefono.value ===  '' || direccion.value ===   '') {
+            Swal.fire({
+                type: 'Error',
+                title: "<h4 style='color:white'>Ingrese todos los campos requeridos</h4>",
+                showConfirmButton: false,
+                timer: 2000,
+                background: '#fff',
+            })
+        } else {
+            const gif = document.querySelector(`#gif`)
+            gif.style.display = `block`;
+        }
+    
+}
 $(`.title__text`).animate ({ fontSize: "60px",opacity:0.7},2000)
