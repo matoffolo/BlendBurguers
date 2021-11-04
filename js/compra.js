@@ -6,6 +6,7 @@ $().ready(function () {
     carrito = carStorage || [];
     carritoTotal()
 })
+
 function actualizarCompraHTML(){
     listaCompra.innerHTML = '';    
     carrito.forEach(hamburguesa =>{
@@ -60,6 +61,7 @@ function actualStorageCompra(){
     localStorage.setItem(`carrito`,JSON.stringify(carrito))
 }
 
+//Eliminar Burguer
 listaCompra.addEventListener(`click`, EliminarBurguer)
 function EliminarBurguer(e){
     e.preventDefault()
@@ -73,6 +75,8 @@ function EliminarBurguer(e){
        carritoTotal()
     }
 }
+
+//Suma
 function carritoTotal() {
     total = 0;
     const itemTotal = document.querySelector(`#total`)
@@ -87,6 +91,7 @@ function carritoTotal() {
     actualStorageCompra()
 }   
 
+//btn procesar compra
 const cliente = document.getElementById('cliente');
 const correo = document.getElementById('correo');
 const telefono = document.getElementById('telefono');
@@ -133,4 +138,6 @@ function comprar(e){
         }
     
 }
+
+//Animacion
 $(`.title__text`).animate ({ fontSize: "60px",opacity:0.7},2000)
