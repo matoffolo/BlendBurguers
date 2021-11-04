@@ -120,6 +120,16 @@ function comprar(e){
         } else {
             const gif = document.querySelector(`#gif`)
             gif.style.display = `block`;
+
+            const ok = document.createElement(`img`);
+            ok.src = `ima/gifburguer.gif`;
+            ok.style.display = `block`;
+            ok.width = `200`
+
+            setTimeout(() => {
+                gif.style.display = `none`;
+                document.querySelector(`#loaders`).appendChild(ok)
+            }, 9000);
         }
     
 }

@@ -119,3 +119,7 @@ rem
 #gif{
 display: none;
 }
+
+#loaders{
+  background-size: 100px;
+}
