@@ -135,6 +135,8 @@ function comprar(e){
                 gif.style.display = `none`;
                 document.querySelector(`#loaders`).appendChild(ok)
             }, 9000);
+
+            localStorage.removeItem("carrito")
         }
     
 }
